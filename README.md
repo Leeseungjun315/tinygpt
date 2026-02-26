@@ -25,6 +25,8 @@
 
 ## Recommended Model
 
+**터미널에 입력**
+
 ``` bash
 ollama pull qwen2.5:7b
 ```
