@@ -1,4 +1,4 @@
-# TinyGPT Console Chat (Ollama Edition)
+# TinyGPT
 
 > 로컬 GPU 기반 콘솔 AI 챗봇\
 > Rich 기반 세련된 CLI UI + 자동 메모리 요약 + Ollama 연동
