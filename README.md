@@ -29,11 +29,13 @@
 ## 가상환경 생성 (Virtual Environment Setup
 
 Windows
+
 ```bash
 python -m venv .venv
 ```
 
 macOS / Linux
+
 ```bash
 python3 -m venv .venv
 ```
@@ -41,9 +43,12 @@ python3 -m venv .venv
 ## 가상환경 활성화
 
 Windows
+
 ```bash
 .venv\Scripts\Activate or .venv\Scripts\Activate.bat
 ```
+
+macOS / Linux
 
 ```bash
 source .venv/bin/activate
