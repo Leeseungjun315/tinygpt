@@ -2,6 +2,7 @@
 
 > 로컬 GPU 기반 콘솔 AI 챗봇\
 > Rich 기반 세련된 CLI UI + 자동 메모리 요약 + Ollama 연동
+> 가상환경 만들고 구동하는 것이 편합니다.
 
 ------------------------------------------------------------------------
 
@@ -17,10 +18,41 @@
 ## Requirements
 
 -   Python 3.10+
+-   권장: 3.11 / 3.12
+-   3.13: 의존성 설치 이슈(torch)
 -   Ollama 설치
 -   NVIDIA GPU (권장)
 -   Windows / macOS / Linux
 
+------------------------------------------------------------------------
+
+## 가상환경 생성 (Virtual Environment Setup
+
+Windows
+```bash
+python -m venv .venv
+```
+
+macOS / Linux
+```bash
+python3 -m venv .venv
+```
+
+## 가상환경 활성화
+
+Windows
+```bash
+.venv\Scripts\Activate or .venv\Scripts\Activate.bat
+```
+
+```bash
+source .venv/bin/activate
+```
+
+## 가상환경 종료
+```bash
+deactivate
+```
 ------------------------------------------------------------------------
 
 ## Recommended Model
