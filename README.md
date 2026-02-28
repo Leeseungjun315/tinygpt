@@ -1,3 +1,5 @@
+![Ollama](https://img.shields.io/badge/ollama-%23000000.svg?style=for-the-badge&logo=ollama&logoColor=white)
+
 # TinyGPT
 
 > 로컬 GPU 기반 콘솔 AI 챗봇\
